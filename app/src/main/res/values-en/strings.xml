@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Labels -->
+    <string name="lab_score">score</string>
+    <string name="but_start">Go!</string>
+    <string name="but_back">Back</string>
+    <string name="msg_start">The game has started!</string>
+    <string name="msg_fail">Sorry! Time has expired.</string>
+    <string name="msg_resto">You\'re a %1$d seconds left</string>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <!-- Nombre de la aplicación -->
+    <string name="app_name" translatable="false">Race Against Time</string>
+
+    <!-- Etiquetas -->
+    <string name="lab_score">puntuación</string>
+    <string name="but_start">Empezar</string>
+    <string name="men_info" translatable="false">Info</string>
+    <string name="lab_instructions" translatable="false">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="lab_author" translatable="false">Antonio J.Sánchez</string>
+    <string name="lab_github" translatable="false">http://github.com/bilbobolson</string>
+    <string name="but_back">Volver</string>
+    <string name="msg_start">¡El  juego a comenzado!</string>
+    <string name="msg_fail">¡Lo siento! El tiempo ha terminado.</string>
+    <string name="msg_resto">Te has quedado a %1$d segundos</string>
+
+</resources>
