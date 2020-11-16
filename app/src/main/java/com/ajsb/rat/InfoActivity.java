@@ -8,7 +8,9 @@ package com.ajsb.rat;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
+import android.widget.EditText;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -17,6 +19,9 @@ public class InfoActivity extends AppCompatActivity
 {
     @BindView(R.id.butBack)
     public Button button ;
+
+    @BindView(R.id.editTime)
+    public EditText editTime;
 
     /**
      * @param savedInstanceState
@@ -29,13 +34,17 @@ public class InfoActivity extends AppCompatActivity
 
         ButterKnife.bind(this) ;
 
+        //recuperamos el valor
+        Bundle bundle = getIntent().getExtras().getBundle("info");
+        editTime.setText(String.valueOf(bundle.getInt("tiempo")));
         // Regresamos a la actividad anterior al pulsar el botón
         button.setOnClickListener((v) ->
         {
             setResult(66) ;
-            finish() ;
-            return ;
+            finish();
+            return;
         }) ;
+
     }
 
     /**

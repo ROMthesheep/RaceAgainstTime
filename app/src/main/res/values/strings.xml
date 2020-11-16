@@ -3,7 +3,7 @@
     <string name="app_name" translatable="false">Race Against Time</string>
 
     <!-- Etiquetas -->
-    <string name="lab_score">puntuación</string>
+    <string name="lab_score">puntuacion</string>
     <string name="but_start">Empezar</string>
     <string name="men_info" translatable="false">Info</string>
     <string name="lab_instructions" translatable="false">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -18,5 +18,6 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string
     <string name="msg_start">¡El  juego a comenzado!</string>
     <string name="msg_fail">¡Lo siento! El tiempo ha terminado.</string>
     <string name="msg_resto">Te has quedado a %1$d segundos</string>
+    <string name="editext_cambiatiempo">cambia el tiempo!</string>
 
 </resources>
